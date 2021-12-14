@@ -65,12 +65,14 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Card(
                 child: Container(
-                  height: 100, width: 100,
+                  height: 100,
+                  width: 100,
+                  color: Colors.pink,
                   child: Text(
                     ' B.tech (2016 -2020) in stream  \n of Electronics and Communication',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Colors.indigoAccent,
+                      color: Colors.black87,
                     ),
                   ),
                 ),
@@ -78,22 +80,86 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 child: Container(
-                  height: 100, width: 100,
+                  height: 60,
+                  width: 50, color: Colors.pink,
                   child: Text(
                     '12th (2013-2105)',
                     style: TextStyle(
-                        fontWeight: FontWeight.bold, color: Colors.indigoAccent),
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87),
                   ),
                 ),
                 elevation: 10,
               ),
               Card(
                 child: Container(
-                  height: 100, width: 100,
+                  height: 40,
+                  width: 50,
+                  color: Colors.pink,
                   child: Text(
                     '10th',
                     style: TextStyle(
-                        fontWeight: FontWeight.bold, color: Colors.indigoAccent),
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87),
+                  ),
+                ),
+                elevation: 10,
+              ),
+              //SizedBox(height: 25,),
+            ],
+          ),
+          Row(
+            children: [
+              SizedBox(height: 25,),
+              Text(
+                'Project',
+                style: TextStyle(
+                  fontSize: 30,
+                ),
+              ),
+              SizedBox(
+                height: 35,
+              ),
+            ],
+          ),
+          
+           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Card(
+                child: Container(
+                  height: 80, width: 80,
+                  color: Colors.purple,
+                  child: Text(
+                    ' Automatic Railway Gate controller',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black87,
+                    ),
+                  ),
+                ),
+                elevation: 10,
+              ),
+              Card(
+                child: Container(
+                  height: 40, width: 50,
+                  color: Colors.purple,
+                  child: Text(
+                    'Quiz App',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: Colors.black87),
+                  ),
+                ),
+                elevation: 10,
+              ),
+              Card(
+                child: Container(
+                  height: 60, width: 70,
+                  color: Colors.purple,
+                  child: Text(
+                    'Personal Expanses App',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: Colors.black87),
                   ),
                 ),
                 elevation: 10,
